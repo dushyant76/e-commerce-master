@@ -17,7 +17,7 @@ const app = express()
 app.use(cookieParser())
 app.use(cors({
     credentials: true,
-    origin: "https://e-commerce-master-fawn.vercel.app/",
+    origin: "https://e-commerce-master-fawn.vercel.app",
     optionsSuccessStatus: 200,
 }));
 app.use(bodyParser.urlencoded({ extended: true }))
