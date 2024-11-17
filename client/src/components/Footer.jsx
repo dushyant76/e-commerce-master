@@ -22,9 +22,8 @@ export default function Footer() {
                 </Box>
                 <Box sx={{ display: "flex", flexDirection: { lg: "column", md: "column", sm: "row" }, width: { lg: "20rem", md: "10rem", xs: "100%" }, justifyContent: "space-evenly" }}>
                     <Typography variant='h5' sx={{ display: { lg: "block", md: "block", sm: "none", xs: "none" } }}>Follow US</Typography>
-                    <Link href="https://github.com/kkapil94" underline="always" color="inherit" sx={{ marginTop: "1.5rem", fontSize: { lg: '1.2rem', md: "1.2rem", sm: "1rem", xs: ".8rem" } }}>Github <GitHubIcon /></Link>
-                    <Link href="https://www.linkedin.com/in/kapil-khatri-151413249/" underline="always" color="inherit" sx={{ marginTop: "1.5rem", fontSize: { lg: '1.2rem', md: "1.2rem", sm: "1rem", xs: ".8rem" } }}>LinkedIn <LinkedInIcon /></Link>
-                    <Link href="https://fueler.io/kapil_94" underline="always" color="inherit" sx={{ marginTop: "1.5rem", fontSize: { lg: '1.2rem', md: "1.2rem", sm: "1rem", xs: ".8rem" } }}>Fueler <img alt='' style={{ height: "1.5rem", width: "1.5rem", borderRadius: "50%" }} src="./images/fueler3.jpg" /></Link>
+                    <Link href="https://github.com/dushyant76" underline="always" color="inherit" sx={{ marginTop: "1.5rem", fontSize: { lg: '1.2rem', md: "1.2rem", sm: "1rem", xs: ".8rem" } }}>Github <GitHubIcon /></Link>
+                    <Link href="https://www.linkedin.com/in/dushyant-raniwal-4a0165257/" underline="always" color="inherit" sx={{ marginTop: "1.5rem", fontSize: { lg: '1.2rem', md: "1.2rem", sm: "1rem", xs: ".8rem" } }}>LinkedIn <LinkedInIcon /></Link>
                 </Box>
             </Stack>
         </>
