@@ -109,7 +109,7 @@ async function updateStock(id,quantity){
   await product.save({validateBeforeSave:false});
 }
 
-// delet order --admin
+// delete order --admin
 
 export const deleteOrder = catchAsyncErrors(async (req,res)=>{
   const order =await orderModel.findById(req.params.id);
